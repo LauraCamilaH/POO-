@@ -20,8 +20,9 @@ public class Car {
     public Car(String license, Account driver){
         //se llama escribiendo su nombre, pero como tiene el mismo nombre que la variable local
         // se utiliza la palabra this
-        this.driver = driver;
         this.license = license;
+        this.driver = driver;
+       
         
     }
     

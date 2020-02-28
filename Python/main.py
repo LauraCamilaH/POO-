@@ -1,8 +1,8 @@
 from car import Car
-#primero va el nombre del archivo y luego el nombre de la clase
+#primero va el nombre del archivo y luego el nombre de la clase para  importar
 if __name__ == "__main__":
     car = Car ()
-    #no se requiere la palabra reservada car
+    #no se requiere la palabra reservada new car
     car.license = "AMS456"
     car.driver = "Andres Herrera"
     print(vars (car))

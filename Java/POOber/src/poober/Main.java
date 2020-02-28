@@ -5,6 +5,7 @@
  */
 package poober;
 
+
 /**
  *
  * @author laura
@@ -16,6 +17,10 @@ public class Main {
         Car car = new Car("AMQ123", new Account ("Andres Herrera", "123"));
         car.passegenger = 4;
         car.printDataCar();
+        
+       Car pepino = new Car("QME567", new Account ("Andrea Herrera", "1234"));
+       pepino.passegenger = 3;
+      pepino.printDataCar();
         
         /*
         objeto

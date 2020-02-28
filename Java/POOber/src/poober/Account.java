@@ -19,7 +19,7 @@ public class Account {
           
    //metodo costructor
    
-   public void Account (String name, String document){
+   public Account (String name, String document){
        this.name = name;
        this.document = document;
    }

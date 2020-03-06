@@ -7,19 +7,14 @@ package poober;
 
 /**
  *
- * @author laura
+ * @author dell
  */
-public class Payment {
+public class Efectivo extends Payment {
     
-    Integer id;
-    
-    public Payment (Integer id){
-        this.id = id;
+    public Efectivo (Integer Id){
+        super (Id);
+        
     
     }
-    
-    void PrintDataPayment (){
-        System.out.println("Tipo de pago " + id);
-    } 
     
 }

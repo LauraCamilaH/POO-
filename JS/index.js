@@ -8,3 +8,7 @@ car.passenger = 4;
 car.printDataCar ();
 // para ejecutarlo debemos abrir el html
 // para ejecutarlo debemos abrir el html
+
+var uberX = new uberX ("Placa", new Account ("NombreLaura", "doc12"), "chevrole", "spar")
+uberX.passenger = 4;
+uberX.printDataCar

@@ -1,4 +1,5 @@
-from account import account
+
+from  account import Account
 class Car:
     id = int
     license = str

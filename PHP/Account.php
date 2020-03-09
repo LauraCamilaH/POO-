@@ -5,7 +5,6 @@ class Account{
     Public $email;
     Public $password;
     Public $document;
-}
 
 public function __construct ($name, $document, $email, $password){
     $this->name = $name;
@@ -16,7 +15,8 @@ public function __construct ($name, $document, $email, $password){
 
 }
 
-public function (){
-    echo ("impresion de nombre ".$this ->$name)
+public function printDataAccount (){
+    echo ("impresion de nombre ".$this ->$name);
+}
 }
 ?>

@@ -14,9 +14,15 @@ public class Main {
 
     public static void main (String [] args){
         System.out.println("hola");
-       UberX uberX = new UberX ("AMQ123", new Account ("Andres Herrera", "123"), "brand", "model");
+        UberX uberX = new UberX ("AMQ123", new Account ("Andres Herrera", "123"), "brand", "model");
         uberX.setPassenger(4);
         uberX.printDataCar();
+        
+        UberVan uberVan = new UberVan("license Uber van ", new Account ("nombre Uber Van", "documento Uber Van "));{
+        uberVan.setPassenger(6);
+        uberVan.printDataCar();
+    }
+       
         
         
      /*    Car car = new Car("AMQ123", new Account ("Andres Herrera", "123"));

@@ -23,9 +23,12 @@ public class UberX extends Car {
     
    // super hace referencia a los datos de la super clase y this hace 
            // referencia a los atributos de la clase hija
+    }
     
-    
-    
+    @Override
+    void printDataCar (){
+        super.printDataCar();
+        System.out.println("Modelo : "+ model + " brand:  "+ brand);
     }
             
 }
